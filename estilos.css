@@ -1,0 +1,184 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #edeff0;
+}
+
+body>header {
+    background-color: #046dd5;
+    color: white;
+    padding: 15px;
+}
+
+body header a {
+    color: white;
+}
+
+body header h2 {
+    font-style: italic;
+}
+
+
+p {
+    line-height: 1.4em;
+}
+
+img {
+    width: 100%;
+}
+
+/* Estilos de la navegacion */
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 20px 0;
+    background-color: white;
+    flex: 1;
+}
+
+
+li.local {
+    border-top: 5px solid #e1493e;
+}
+
+li.science {
+    border-top: 5px solid #8aba56;
+}
+
+li.weather {
+    border-top: 5px solid #5b4282;
+}
+
+li.politics {
+    border-top: 5px solid #ff8932;
+}
+
+li.sports {
+    border-top: 5px solid #e84c8b;
+}
+
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+
+nav ul li:hover {
+    background-color: #2a2f33;
+    color: white;
+    transition: 0.2s;
+}
+
+nav ul li:hover a {
+    color: white;
+    transition: 0.2s;
+}
+
+/* Estilos de la seccion central */
+
+#contenido-principal {
+    display: flex;
+}
+
+#contenido-principal aside {
+    flex: 1;
+
+}
+
+#contenido-principal section {
+    flex: 2;
+
+}
+
+/* Estilos de seccion de noticias */
+
+
+#news p {
+    padding: 5px 10px;
+}
+
+#news {
+    position: relative;
+}
+
+#news article {
+    background-color: white;
+}
+
+#news article header {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    max-width: 250px;
+    padding: 15px;
+    color: white;
+}
+
+#news article header h1 {
+    margin: 0;
+    text-shadow: 0.2em 0.2em 0.2em black;
+}
+
+
+
+#news footer {
+    color: white;
+    background-color: #f4655f;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Estilos del aside */
+
+#related {
+    font-family: "Raleway", sans-serif;
+    ;
+}
+
+#related {
+    background-color: #2a2f33;
+    padding: 10px;
+}
+
+#related p {
+    color: white;
+
+}
+
+#related a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#related a:hover {
+    text-decoration: underline;
+    font-size: larger;
+    transition: 0.5s;
+}
+
+
+/* Estilos del footer */
+
+footer {
+    background-color: #1b1e1f;
+    text-align: center;
+    padding: 2px;
+}
+
+footer p {
+    color: grey;
+}
